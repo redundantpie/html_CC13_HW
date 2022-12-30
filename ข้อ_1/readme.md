@@ -1,4 +1,18 @@
 ### codecamp # 13
 ชื่อ จารวี จิตรบรรเจิดกุล
 
-![problem#HW1](https://scontent.fbkk2-7.fna.fbcdn.net/v/t1.15752-9/314021470_1346709102401893_7729383670143268512_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGRD1sGPYcm2_WBQEWiqUlaQFFFo0UeOFRAUUWjRR44VDlcE-DoJeTx2B7dp3Gs7YEANJeG5dQvu5xHDBT8QvX7&_nc_ohc=nBcHkyBhCKEAX9VHueG&_nc_ht=scontent.fbkk2-7.fna&oh=03_AdSDOv-OGyz0-tim8Ukf9jqSMvqseYYdv95-WW3B5Pl1SA&oe=639C225A)
+1. สร้างหน้า index.html เป็น homepage 
+- มีภาพที่แสดงความเป็นตัวเอง และ motto ประจำตัว
+- มี link เข้าสู่หน้า profile และ friend 
+2. สร้างหน้า profile.html เพื่อแสดงประวัติตัวเอง 
+	- มีรูปตัวเอง / avatar และข้อมูลเบื้องต้น เช่น
+- ชื่อ-นามสกุล,​ ชื่อเล่น, ชื่อกลุ่ม,​ ภูมิลำเนา, 
+- ความถนัด, งานอดิเรกที่ชอบ (ให้มีภาพประกอบด้วย)
+- มี link ไปยัง 2 หน้าที่เหลือ (index.html + friends.html)
+3. สร้าง friends.html เพื่อแสดงรายชื่อเพื่อนใน codecamp#5 ทั้งหมด
+- ชื่อ-นามสกุล,​ ชื่อเล่น,เลขที่, ชื่อกลุ่ม,​ เบอร์โทร, site(github.io) 
+- มี link ไปยัง 2 หน้าที่เหลือ (index.html + profile.html)
+4. เมื่อเรียบร้อยแล้ว ให้ส่ง web site นี้ขึ้น github.io ของตัวเอง
+
+ 
+
