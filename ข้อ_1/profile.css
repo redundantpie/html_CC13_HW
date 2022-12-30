@@ -1,0 +1,78 @@
+body{
+    font-family: 'Mitr', sans-serif;
+    margin: 0;
+    
+}
+
+
+
+.tag{
+    background-color: black;
+    border-top: 5px solid red;
+    margin-bottom: 2em;
+    height: 4em;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+
+}
+
+.tag a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    font-weight: bold;
+}
+
+.img{
+    display: flex;
+}
+.item1{
+    border-radius: 100%;
+    border: 3px solid #ddd  ;
+    box-shadow: 0 0 2px #ddd;
+
+    width: 397px;
+    height: 397px;
+    object-fit: cover;
+    margin-right: 3em;
+    position: relative;
+
+}
+.item2{
+
+    
+    border-radius: 100%;
+    border: 3px solid #ddd  ;
+    box-shadow: 0 0 2px #ddd;
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    left: 20em;
+    top: 20em;
+
+}
+
+
+.container{
+    padding: 7em;
+    display: flex;
+
+}
+
+.info{
+    
+    background-color: rgb(247, 247, 247);
+    width: 50%;
+    padding: 2em;
+}
+
+.info h1{
+    color: red;
+    margin-top: 0;
+}

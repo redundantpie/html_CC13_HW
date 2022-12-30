@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body{
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+            border-top: 5px solid red;
+        }
+
+        img {
+                width: 60%;
+                height: 30%;
+                margin: 5% 5% auto;
+                border-radius: 0.25em;
+        }
+
+    
+
+        .rock{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            flex-direction: column;
+
+        }
+        .rock p{
+            margin: 1.5em;
+        }
+
+      
+
+        .tag a{
+            text-decoration: none;
+            margin: 0.7em;
+            color: red;
+            font-size: 1em;
+        }
+
+        .tag {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+
+        }
+
+        .tag p{
+            position: absolute;
+            top: -15px;
+            left: 42px;
+        }
+
+        
+    </style>
+    <title>HW1</title>
+</head>
+<body>
+    <div class="rock">
+        <img src="https://preview.redd.it/nnukvs4thu291.png?width=960&crop=smart&auto=webp&s=dde6e0e11422b7d795f65e67b88a7adbb8ce0e15" alt="rock">
+        <p><strong>Just be a rock</strong></p>
+
+        <div class = 'tag'>
+            <a href="./profile.html">Profile</a>
+            <p>|</p>
+            <a href="./friendlist.html">Friend Lists</a>
+        </div>
+    </div>
+</body>
+</html>

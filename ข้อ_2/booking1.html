@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test-booking-grid</title>
+    <link rel="stylesheet" href="./booking1.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1-from">
+            <label for="From">From</label><br>
+            <select name="From">
+                <option value="Krachi">Karachi, Pakistan</option>
+            </select>
+        </div>
+            
+        <div class="item2-to">
+            <label for="To">To</label><br>
+            <select name="To">
+                <option value="Islamabad">Islamabad</option>
+            </select>
+        </div>
+
+        <div class="item3-out-time">
+            <label for="departing">Departing</label><br>
+            <input type="date" name="departing" >
+        </div>
+
+        <div class="item4-in-time">
+            <label for="returning">Returning</label><br>
+        <input type="date" name="returning">
+        </div>
+        
+        
+        <div class="item5-footer">
+            <div class="adult">
+                <label for="adult">Adult</label>
+                <select name="adult" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            
+            <div class="child">
+                <label for="child">Child</label>
+                <select name="child" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            
+            <div class="infant">
+                <label for="adult">Infant</label>
+                <select name="adult" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            
+            <div class="currency">
+                <label for="currency">Currency</label>
+                <select name="currency">
+                    <option value="USD">USD</option>
+                    <option value="THB">THB</option>
+                </select>
+            </div>
+            
+        </div>
+        <!-- class="item5-footer" -->
+
+        <input class='serach-btn' type="submit" value="search">
+            
+
+    </div>
+    <!-- class="grid-container" -->
+
+</body>
+</html>
